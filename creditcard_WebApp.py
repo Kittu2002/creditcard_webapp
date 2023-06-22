@@ -11,7 +11,7 @@ import pickle
 import streamlit as st
 from sklearn.preprocessing import StandardScaler
 # Loading saved model
-loaded_model = pickle.load(open('D:/deployment/creditcard_trained.sav', 'rb'))
+loaded_model = pickle.load(open('creditcard_trained.sav', 'rb'))
 # Creating prediction
 def credit_card_prediction(input_data):
     # Converting input data to numeric values
